@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <title>BD-Restaurant</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style_main_page.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel ="stylesheet" type = "text/css" href ="css/font-awesome.css">
+
+
+    
+   
+  </head>
+  <body>
+    <nav class="nav_header">
+      <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+        <ul class="navbar-header name_resturant">
+          <li><a class="navbar_brand " id="#home" href="index_main_page.html"><i class="glyphicon glyphicon-th"></i>BD-RESTURANT</a></li>
+         
+        </ul>
+        
+        <ul class="nav navbar-nav navbar-right nav_header_right">
+           <form class="navbar-form navbar-left " role="search" method="post" action="">
+            <div class="form-group">
+              <input type="text" class="form-control" aria-describedby="sizing-addon1" maxlength="20" class="form-control" placeholder="write somethings ">
+            </div>
+            <button type="submit" class="btn btn-info submit_btn"><i class="glyphicon glyphicon-search"></i></button>
+          </form>
+          
+          
+          <li><a href="Contact_page.html">Contact Us</a></li>
+          <li><a href="about_us_page.html">About Us</a></li>
+           <li class="dropdoawn">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
+              
+            <ul class="dropdown-menu dropdown_menu">
+              <li><a href="index_main_page.html" class="glyphicon glyphicon-home"> Home</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="index_sign_page.html">Sign IN</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#" aria-hidden="true"><i class="glyphicon glyphicon-user"></i> LogIn</a></li>
+            </ul>
+
+          </li>
+        </ul>
+      </div><!-- /. end of container-fluid -->
+      
+    </nav><!--end of nav hader-->
+   
+
+    <div class="container-fluid main_contant "><!--main Contant-->
+      <div class="row">
+        <div class="col-md-3 dashbord" id="dashbord2">
+          <h1>Specify</h1>   
+          <h5>Which Area are You looking for?</h5>
+          <select class="selectpicker" data-live-search="True">
+            <option data-subtext="Dhanmondhi"><a href="">Dhanmondhi</a></option>
+            <option data-subtext="Dhanmondhi"><a href="">Zigatola</a></option>
+            <option data-subtext="Uttara"><a href="">Uttara</a></option>
+            <option data-subtext="Mohammadpur"><a href="">Mohammadpur</a></option>
+            <option data-subtext="Rep Alabama"><a href="">Mario Flores</a></option>
+            <option data-subtext="Rep Alaska"><a href=""> Don Young</a></option>
+          </select>
+
+          <h5>What Kind of Restuarant You are looking for?</h5>
+          <select class="selectpicker" data-live-search="True">
+              <option data-subtext="Rep California">Tom Foolery</option>
+              <option data-subtext="Sen California">Bill Gordon</option>
+              <option data-subtext="Sen Massacusetts">Elizabeth Warren</option>
+              <option data-subtext="Rep Alabama">Mario Flores</option>
+              <option data-subtext="Rep Alaska">Don Young</option>
+          </select>
+          
+          <div class="ratings">
+            <h5>Minimum rating</h5>
+            <div>
+              <div class="row">
+                <div class="col-md-6">
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star"></span>
+                  <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
+                <div>
+                  <p class="col-md-6">15 reviews</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button_click">
+            
+          <h5>Check Your Location:</h5>
+          <button onclick="myFunction()">Click me</button>
+          <p id="demo"></p>
+          </div>
+        </div><!-- End of the Deshbord selection-->
+      
+        
+
+        <div class="col-md-9 contant_box"><!-- Contant_boxes-->
+          <div class="first_row_content">
+
+            <div class="col-md-4 up_content">
+              <div class="thumbnail">
+                <div class="flex-container ">
+                  <img class="img-responsive" alt="Images" src="images/kfc/KFC_Logo01.jpg" width="320" height="80" >
+                  
+                </div>
+                <div class="caption">
+                  <h4><a href="kfc_page.html">KFC</a></h4>
+                  <p>House-84, Road-7/A, Shatmosjid Road, Dhanmondi, Dhaka-1209</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">18 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div><!--End of UP_content-->
+         
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <div class="slideshow02">
+                  <img class="img-responsive" alt="Images" src="images/bfc/bfc01.jpg" alt="" width="320" height="80" >
+                  
+                  
+                </div>
+                  <div class="caption">
+                    <h4><a href="#">BFC</a></h4>
+                    <p>Orchid Plaza, Road # 28 (old, Dhanmondi 5, Dhaka</p>
+                  </div>
+                <div class="ratings">
+                  <p class="pull-right">18 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <div class="slideshow01">
+                  <img class="img-responsive" alt="Images" src="images/abacus/01.jpg" alt="">
+                  
+                </div>
+                <div class="caption">
+                  <h4><a href="#">Abacus</a></h4>
+                    <p>House - 49, Satmasjid Road, Dhanmondi R/A, Dhaka - 1209</p>
+                  </div>
+                <div class="ratings">
+                  <p class="pull-right">18 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div><!--end of-->
+          </div><!--End of first row contant-->
+          
+          <div class="second_row_contant">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <div class="slideshow01">
+                  <img class="img-responsive" alt="Images" src="images/baburchi/01.jpg" alt="">
+                  
+                </div>
+                <div class="caption">
+                  <h4><a href="#">Baburchi</a></h4>
+                  <p>House - 55/A, Road, 4/A, Satmasjid Road, Dhanmondi, Dhaka.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">18 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div><!--end of-->
+
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <div class="slideshow03">
+                  <img class="img-responsive" alt="Images" src="images/bnb/01.jpg" alt="">
+                  
+                </div>
+                <div class="caption">
+                  <h4><a href="#">Burger n' Boost</a></h4>
+                  <p>House - 74, Sat Masjid Road, Road - 5A, Dhanmondi, Dhaka - 1205</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">18 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div><!--end of-->
+
+
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <div class="slideshow01">
+                  <img class="img-responsive" alt="Images" src="images/korai_gost/01.jpg" alt="">
+                  <
+                </div>
+                <div class="caption">
+                  <h4><a href="#">KORAI GOST</a></h4>
+                  <p>House - 55/A, Road - 4/A, Satmasjid Road, Dhanmondi, Dhaka-1209</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">18 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div><!--end of-->
+          </div><!--End of second row contant-->
+            
+          <div class="third_row_contant">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img class="img-responsive" alt="Images" src="images/BOOMERS.jpg" alt="">
+                <div class="caption">
+                  <h4><a href="#">Boomers Cafe</a></h4>
+                  <p>Anam Rangs Plaza, (3rd Floor), Road # 6A, House # 61, Dhanmondi, Dhaka, Bangladesh.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">18 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div><!--end of-->
+
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img class="img-responsive" alt="Images" src="images/Pizza-Hut-logo.jpg" alt="">
+                <div class="caption">
+                  <h4><a href="#">Pizza Hut</a></h4>
+                  <p>754, Sat Masjid Road, Dhanmondi, Dhaka, Bangladesh.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">18 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div><!--end of-->
+
+            <div class="col-md-4">
+              
+            </div>
+          </div><!--End of third row contant-->
+
+        </div><!--End of Contant Box-->
+      </div><!--End of row selection-->
+    </div><!--end of main_contant-->
+    
+
+    <div class="container-flid"> 
+      <footer >
+        <div class="copy text-center ">
+          © 2016 BD-RESTAURANT All Right Reserved.
+        </div>
+         
+      </footer>
+    </div>
+
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+
+         
+    <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
